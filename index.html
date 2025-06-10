@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Setec - Evento Anual de Tecnologia | Colégio Estadual Barbosa Ferraz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="nav-container" role="navigation" aria-label="Menu principal">
+      <div class="logo" tabindex="0" aria-label="Setec Evento de Tecnologia">SETEC</div>
+      <nav>
+        <ul>
+          <li><a href="#sobre" tabindex="0">Sobre</a></li>
+          <li><a href="#programacao" tabindex="0">Programação</a></li>
+          <li><a href="#local" tabindex="0">Local</a></li>
+          <li><a href="#contato" tabindex="0">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Setec - Evento Anual de Tecnologia</h1>
+      <p>Conectando mentes criativas no Colégio Estadual Barbosa Ferraz, Ivaiporã - Paraná. Venha participar da maior celebração de inovação tecnológica da região!</p>
+      <button class="btn-primary" onclick="scrollToContact()" aria-label="Ir para seção de contato">Inscreva-se Agora</button>
+    </section>
+    <section class="event-info" id="sobre" aria-labelledby="sobre-title">
+      <h2 id="sobre-title">Sobre o Setec</h2>
+      <p>
+        O Setec é um evento anual de tecnologia realizado com muito entusiasmo no Colégio Estadual Barbosa Ferraz, localizado em Ivaiporã, Paraná.
+        Reunimos estudantes, profissionais e entusiastas da área para compartilhar conhecimentos, inovações e promover networking.
+      </p>
+      <p>
+        O evento conta com palestras, workshops, exposições de projetos, competições e muito mais, sempre com o objetivo de incentivar o aprendizado e a paixão pela tecnologia.
+      </p>
+    </section>
+    <section class="schedule" id="programacao" aria-labelledby="programacao-title">
+      <h2 id="programacao-title">Programação Destaque</h2>
+      <div class="schedule-list" role="list">
+        <article class="schedule-item" role="listitem" tabindex="0">
+          <h3>Palestra de Abertura: Futuro da Tecnologia</h3>
+          <time datetime="2024-08-12T09:00">12 de Agosto, 09:00</time>
+        </article>
+        <article class="schedule-item" role="listitem" tabindex="0">
+          <h3>Workshop: Desenvolvimento de Apps</h3>
+          <time datetime="2024-08-12T11:00">12 de Agosto, 11:00</time>
+        </article>
+        <article class="schedule-item" role="listitem" tabindex="0">
+          <h3>Maratona de Programação Setec</h3>
+          <time datetime="2024-08-13T09:30">13 de Agosto, 09:30</time>
+        </article>
+        <article class="schedule-item" role="listitem" tabindex="0">
+          <h3>Painel: Inteligência Artificial</h3>
+          <time datetime="2024-08-13T14:00">13 de Agosto, 14:00</time>
+        </article>
+      </div>
+    </section>
+    <section class="location" id="local" aria-labelledby="local-title">
+      <h2 id="local-title">Local do Evento</h2>
+      <p>Colégio Estadual Barbosa Ferraz de Ivaiporã, Paraná</p>
+      <iframe title="Mapa do Colégio Estadual Barbosa Ferraz"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6089.8769876540935!2d-51.30560582006263!3d-24.577217321560174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4c46a38a8d885%3A0xa5c7cf6bfbd2abdd!2sCol%C3%A9gio%20Estadual%20Barbosa%20Ferraz%20-%20Ivaipor%C3%A3%2C%20PR!5e0!3m2!1spt-BR!2sbr!4v1713974200000!5m2!1spt-BR!2sbr"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+<section class="signup" id="cadastro">
+  <h2>Cadastro</h2>
+  <form class="signup-form" action="#" method="post">
+    <label for="name">Nome</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Senha</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit" class="btn-primary">Cadastrar</button>
+  </form>
+</section>
+
+
+    <section class="contact" id="contato" aria-labelledby="contato-title">
+      <h2 id="contato-title">Contato</h2>
+      <p>Quer saber mais ou fazer perguntas? Entre em contato conosco pelo e-mail ou telefone a seguir:</p>
+      <p><strong>Email:</strong> <a href="mailto:contato@setecivaipora.com.br">contato@setecivaipora.com.br</a></p>
+      <p><strong>Telefone:</strong> <a href="tel:+554337123456">+55 (43) 3712-3456</a></p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 Setec - Colégio Estadual Barbosa Ferraz de Ivaiporã, Paraná</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
